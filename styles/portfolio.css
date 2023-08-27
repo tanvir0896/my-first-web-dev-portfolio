@@ -8,6 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px;
 }
 
 .text-primary {
@@ -45,4 +46,38 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .portfolio-pic{
+    width: 500px;
+}
+.text-color{
+    color:#757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-bcolor{
+    background: #FFF8F3;
+    color: #FD6E0A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 160px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    border-color: #FD6E0A;
 }
