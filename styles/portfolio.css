@@ -8,23 +8,37 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 200px;
+    margin: 0px 200px;
 }
 
 .text-primary {
     color: #FD6E0A;
 }
 
-.btn-primay {
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    color:#FFF;
+    color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding: 15px 35px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .nav-title {
@@ -47,26 +61,68 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
-/* header related styles */
-.header{
-    background-color: #FFF8F3;
+
+.a-style {
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
 }
-.banner .portfolio-pic{
+
+.banner .portfolio-pic {
     width: 500px;
 }
-.text-color{
-    color:#757575;
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.banner-content {
+    max-width: 700px;
+
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.text-color {
+    color: #757575;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    width: 585px;
 }
-.btn-bcolor{
+
+.btn-bcolor {
     background: #FFF8F3;
     color: #FD6E0A;
     text-align: center;
@@ -80,4 +136,25 @@ nav a {
     flex-shrink: 0;
     margin-left: 30px;
     border-color: #FD6E0A;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+    color: #757575
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
